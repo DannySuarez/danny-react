@@ -1,0 +1,24 @@
+{
+  "name": "danny-react",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DannySuarez/danny-react.git"
+  },
+  "bin": {
+    "danny-react": "./index.js"
+  },
+  "description": "*Don't** install this package. Use `npm init` in parent directory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
