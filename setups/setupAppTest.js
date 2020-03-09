@@ -15,7 +15,7 @@ describe('App component', () => {
     expect(wrapper).toMatchSnapshot();
   });
 });
-  `.trimStart();
+`.trimStart();
   fs.writeFileSync(path.join(folder, 'src/components/App.test.js'), AppTest);
 }
 

@@ -39,7 +39,9 @@ function installDependencies(folder) {
 
   const dependencies = [
     'react',
-    'react-dom'
+    'react-dom',
+    'styled-components',
+    'normalize.css'
   ];
 
   console.log(chalk.green('Installing devDependencies'));

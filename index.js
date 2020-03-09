@@ -1,25 +1,24 @@
 #!/usr/bin/env node
 
-
 const chalk = require('chalk');
 const fs = require('fs');
 const path = require('path');
 
-const setupPackageJson = require('./setupJson');
-const installDependencies = require('./installDependencies');
-const setupWebpack = require('./setupWebpack');
-const setupBabel = require('./setupBabel');
-const setupEslint = require('./setupEslint');
+const setupPackageJson = require('./setups/setupJson');
+const installDependencies = require('./setups/installDependencies');
+const setupWebpack = require('./setups/setupWebpack');
+const setupBabel = require('./setups/setupBabel');
+const setupEslint = require('./setups/setupEslint');
 
 
-const setupApp = require('./setupApp');
-const setupAppTest = require('./setupAppTest');
-const setupFileMock = require('./setupFileMock');
-const setupGitignore = require('./setupGitignore');
-const setupTravis = require('./setupTravis');
-const initGit = require('./initGit');
-const initTest  = require('./initTest');
-const setupPublic = require('./setupPublic');
+const setupApp = require('./setups/setupApp');
+const setupAppTest = require('./setups/setupAppTest');
+const setupFileMock = require('./setups/setupFileMock');
+const setupGitignore = require('./setups/setupGitignore');
+const setupTravis = require('./setups/setupTravis');
+const initGit = require('./setups/initGit');
+const initTest  = require('./setups/initTest');
+const setupPublic = require('./setups/setupPublic');
 
 
 const args = process.argv;

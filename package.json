@@ -1,12 +1,12 @@
 {
   "name": "danny-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/DannySuarez/danny-react.git"
   },
   "bin": {
-    "danny-react": "./index.js"
+    "create-danny-react": "./index.js"
   },
   "description": "*Don't** install this package. Use `npm init` in parent directory.",
   "main": "index.js",
