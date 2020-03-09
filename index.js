@@ -20,7 +20,6 @@ const initGit = require('./setups/initGit');
 const initTest  = require('./setups/initTest');
 const setupPublic = require('./setups/setupPublic');
 
-
 const args = process.argv;
 const folderName = args[args.length - 1];
 const folder = folderName;
@@ -39,7 +38,6 @@ setupTravis(folder);
 initGit(folder);
 initTest(folder);
 setupPublic(folder);
-
 
 function setupSrc(folder) {
   console.log(chalk.green('Setting up src'));
